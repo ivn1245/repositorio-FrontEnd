@@ -1,0 +1,40 @@
+body{
+    font-family: "montserrat","sans-serif"
+}
+.barra_de_navegacion{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(37, 9, 69);
+}
+.elementos{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.nombre{
+    color: aquamarine;
+    
+}
+.nombre span{
+    color: white;
+}
+.redes_sociales{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.redes_sociales li{
+    list-style: none;
+}
+
+.redes_sociales  a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.redes_sociales a:hover{
+    color: black;
+    background-color: aqua;
+    transition: ease-in-out .3s;
+}

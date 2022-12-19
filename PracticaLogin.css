@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+body{
+    font:  sans-serif;
+    height: inherit;
+    background: linear-gradient(300deg,#FF6347,#EEE8AA) ;
+    align-items: center;
+    justify-items: center row;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulario{
+    display: grid;
+    grid-row: inherit;
+    justify-items: center;
+    border: 5px black solid;
+    border-radius: 6px;
+    padding: 0px 0px ;
+    margin: 0em 20em;
+}
+.formulario p{
+    font-weight: bold;
+    text-align: center;
+}
+.texto{
+    border-radius: 10px;
+    box-shadow: black;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.button{
+    display: flex;
+    padding: 7px 20px;
+}
+.mail input{
+    width:200px;
+}
